@@ -35,7 +35,7 @@
 						<muleVersion>${mule.version}</muleVersion>
 						<!-- Deploy user parameters -->
 	<!-- 					<username>${anypoint.username}</username> -->
-							<username>er.poojashah@gmail.com</username>
+							<username>poojashah62</username>
 					<!-- 	<password>${anypoint.password}</password> -->
 									<password>Talwara123</password>
 						
