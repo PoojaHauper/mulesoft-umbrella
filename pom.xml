@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.hauper</groupId>
+	<groupId>com.mulesoft</groupId>
 	<artifactId>example</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
@@ -34,12 +34,13 @@
 						<uri>https://anypoint.mulesoft.com/</uri>
 						<muleVersion>${mule.version}</muleVersion>
 						<!-- Deploy user parameters -->
-	<!-- 					<username>${anypoint.username}</username> -->
-							<username>poojashah602</username>
-					<!-- 	<password>${anypoint.password}</password> -->
-									<password>Talwara123</password>
+						<username>${anypoint.username}</username> 
+					<!-- 		<username>poojashah602</username> -->
+					<password>${anypoint.password}</password> 
+				<!-- 	<password>Talwara123</password>  -->
 						
-						<environment>Sandbox</environment>
+						<environment>${env}</environment>
+					<!-- 		<environment>Sandbox</environment> -->
 						<applicationName>${appname}</applicationName>
 						<businessGroup>${business}</businessGroup>
 						<workerType>${vCore}</workerType>
